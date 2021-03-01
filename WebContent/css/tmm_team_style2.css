@@ -1,0 +1,1135 @@
+.tmm-team .item-hexagon{
+    background-color: transparent;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    width: 240px;
+    margin: 0 25px;
+}
+.tmm-team .item-hexagon .face-container{
+    position: relative;
+}
+/* Hexagon */
+.tmm-team .item-hexagon .hexagon{
+    overflow: hidden;
+    visibility: hidden;
+    cursor: pointer;
+    width: 240px;
+    height: 277px;
+    -webkit-transform: rotate(120deg);
+    -moz-transform: rotate(120deg);
+    -ms-transform: rotate(120deg);
+    -o-transform: rotate(120deg);
+    transform: rotate(120deg);
+    -webkit-transition: all .35s ease-in-out .1s;
+    transition: all .35s ease-in-out .1s;
+}
+.tmm-team .item-hexagon:hover .hexagon{
+    opacity: 0;
+    -webkit-transform: rotate(120deg) scale(0.5);
+    transform: rotate(120deg) scale(0.5);
+}
+.tmm-team .item-hexagon .hexagon-back{
+    overflow: hidden;
+    cursor: pointer;
+    width: 240px;
+    height: 277px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    -webkit-transform: rotate(120deg) scale(0.5);
+    -moz-transform: rotate(120deg);
+    -ms-transform: rotate(120deg);
+    -o-transform: rotate(120deg);
+    transform: rotate(120deg) scale(0.5);
+    -webkit-transition: all .35s ease-in-out .1s;
+    transition: all .35s ease-in-out .1s;
+}
+.tmm-team .item-hexagon:hover .hexagon-back{
+    opacity: 1;
+    -webkit-transform: rotate(120deg) scale(1);
+    transform: rotate(120deg) scale(1);
+    -webkit-transition: all .35s ease-in-out .3s;
+    transition: all .35s ease-in-out .3s;
+}
+.tmm-team .item-hexagon .hexagon-in{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+}
+.tmm-team .item-hexagon .hexagon-in-back{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+}
+.tmm-team .item-hexagon .hexagon-bg{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    visibility: visible;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+}
+.tmm-team .item-hexagon .hexagon-bg-back{
+    width: 100%;
+    height: 100%;
+    background-color: #1a4a72;
+    position: relative;
+    visibility: visible;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+}
+.tmm-team .item-hexagon .hexagon-bg-back h3{
+    color: #fff;
+    font-size: 22px;
+    height: 110px;
+    letter-spacing: 2px;
+    margin: 0 30px;
+    padding: 70px 0 0;
+    position: relative;
+    text-shadow: 0 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+}
+.tmm-team .item-hexagon .hexagon-bg-back p{
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    color: #bbb;
+    font-size: 12px;
+    font-style: italic;
+    margin: 0 30px;
+    padding: 10px 5px;
+}
+.tmm-team .item-hexagon .hexagon-bg.type-1{
+    background: url(../images/page_3/01.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.tmm-team .item-hexagon .hexagon-bg.type-2{
+    background: url(../images/page_3/02.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.tmm-team .item-hexagon .hexagon-bg.type-3{
+    background: url(../images/page_3/03.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.tmm-team .item-hexagon .hexagon-bg.type-4{
+    background: url(../images/page_3/04.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+/* end Hexagon */
+.tmm-team .item-hexagon .item-content{
+    text-align: center;
+    position: relative;
+}
+.tmm-team .item-hexagon .footer{
+    padding: 20px 0px 35px 0px;
+}
+.tmm-team .item-hexagon .footer .title{
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    font-size: 14px;
+    padding: 0px 0px 8px 0px;
+}
+.tmm-team .item-hexagon .footer .title b{
+    font-size: 30px;
+    font-weight: 300;
+}
+.tmm-team .item-hexagon .social-icons{
+    padding: 10px 0;
+}
+.tmm-team .item-hexagon .social-icons li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 3px;
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: -webkit-transform .35s, opacity .35s;
+    transition: transform .35s, opacity .35s;
+}
+.tmm-team .item-hexagon .social-icons li:nth-child(1) a{
+    background-color: #0c7bae;
+}
+.tmm-team .item-hexagon .social-icons li:nth-child(2) a{
+    background-color: #0cd3e5;
+}
+.tmm-team .item-hexagon .social-icons li:nth-child(3) a{
+    background-color: #e44e43;
+}
+.tmm-team .item-hexagon .social-icons li:nth-child(4) a{
+    background-color: #f94e9f;
+}
+.tmm-team .item-hexagon .social-icons li a{
+    font-size: 27px;
+    color: #fff;
+    cursor: pointer;
+    padding: 6px;
+    -webkit-transition: background-color .35s ease-in-out 0s, color .35s ease-in-out 0s;
+    transition: background-color .35s ease-in-out 0s, color .35s ease-in-out 0s;
+}
+.tmm-team .item-hexagon:hover .social-icons li{
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition-property: opacity, -webkit-transform;
+    transition-property: opacity, transform;
+    -webkit-transition-duration: .35s;
+    transition-duration: .35s;
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+}
+.tmm-team .item-hexagon .social-icons li:nth-child(1){
+    transition-delay: .25s;
+}
+.tmm-team .item-hexagon .social-icons li:nth-child(2){
+    transition-delay: .50s;
+}
+.tmm-team .item-hexagon .social-icons li:nth-child(3){
+    transition-delay: .75s;
+}
+.tmm-team .item-hexagon .social-icons li:nth-child(4){
+    transition-delay: 1s;
+}
+.tmm-team .item-hexagon .social-icons li:hover a{
+    background-color: #fff;
+    -webkit-transition: all .35s ease-in-out 0s;
+    transition: all .35s ease-in-out 0s;
+}
+.tmm-team .item-hexagon .social-icons li:nth-child(1):hover a{
+    color: #0c7bae;
+}
+.tmm-team .item-hexagon .social-icons li:nth-child(2):hover a{
+    color: #0cd3e5;
+}
+.tmm-team .item-hexagon .social-icons li:nth-child(3):hover a{
+    color: #e44e43;
+}
+.tmm-team .item-hexagon .social-icons li:nth-child(4):hover a{
+    color: #f94e9f;
+}
+/* --------------------------------------- */
+/*$2. Team Type 2 */
+/* --------------------------------------- */
+.tmm-team .hgroup{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    padding: 40px 5px;
+}
+.tmm-team .hgroup .title-2{
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+    position: relative;
+    display: inline-block;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+.tmm-team .hgroup .title-2:after{
+    position: absolute;
+    right: -12px;
+    width: 30px;
+    height: 15px;
+    background-color: #ffff9d;
+    color: #11110a;
+    font-family: "Open Sans", sans-serif;
+    font-size: 10px;
+    line-height: 1.3em;
+    content: "2014";
+}
+.tmm-team .hgroup .title-2:before{
+    position: absolute;
+    top: 2px;
+    right: -12px;
+    width: 29px;
+    height: 15px;
+    background-color: #ff6138;
+    content: "";
+    -webkit-transform: skewY(4deg);
+    transform: skewY(4deg);
+}
+.tmm-team .hgroup h4{
+    color: #333333;
+    font-size: 14px;
+}
+.tmm-team .item-hexagon-2{
+    position: relative;
+    background-color: #fff;
+    text-align: center;
+    display: inline-block;
+    width: 190px;
+    margin: 0 12px;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+    -webkit-transition: all .35s linear;
+    transition: all .35s linear;
+}
+.tmm-team .item-hexagon-2:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.tmm-team .item-hexagon-2 .social-icons{
+    background-color: #7bdee7;
+    padding: 10px 0;
+    position: relative;
+    top: -43px;
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease;
+}
+.tmm-team .item-hexagon-2:hover .social-icons{
+    top: 0;
+}
+.tmm-team .item-hexagon-2:hover .social-icons{
+    background-color: #e44e43;
+    -webkit-transition: all .35s ease 0s;
+    transition: all .35s ease 0s;
+}
+.tmm-team .item-hexagon-2 .social-icons:after{
+    content: '';
+    position: absolute;
+    top: 99%;
+    left: 49%;
+    margin-left: -11px;
+    width: 0;
+    height: 0;
+    border-top: 4px solid #7bdee7;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    -webkit-transition: all .35s ease 0s;
+    transition: all .35s ease 0s;
+}
+.tmm-team .item-hexagon-2:hover .social-icons:after{
+    border-top-color: #e44e43;
+    -webkit-transition: all .35s ease 0s;
+    transition: all .35s ease 0s;
+}
+.tmm-team .item-hexagon-2 .social-icons li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 10px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all .35s ease 0s;
+    transition: all .35s ease 0s;
+}
+.tmm-team .item-hexagon-2 .social-icons li:hover{
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: tada;
+    animation-name: tada;
+}
+.tmm-team .item-hexagon-2 .social-icons li:nth-child(1):hover a{
+    color: #0c7bae;
+}
+.tmm-team .item-hexagon-2 .social-icons li:nth-child(2):hover a{
+    color: #0cd3e5;
+}
+.tmm-team .item-hexagon-2 .social-icons li:nth-child(3):hover a{
+    color: #c42462;
+}
+.tmm-team .item-hexagon-2 .social-icons li a{
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+.tmm-team .item-hexagon-2 .face-container{
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+/* Hexagon */
+.tmm-team .item-hexagon-2 .hexagon{
+    overflow: hidden;
+    visibility: hidden;
+    cursor: pointer;
+    width: 166px;
+    height: 192px;
+    margin: 0 auto;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: rotate(120deg);
+    -moz-transform: rotate(120deg);
+    -ms-transform: rotate(120deg);
+    -o-transform: rotate(120deg);
+    transform: rotate(120deg);
+}
+.tmm-team .item-hexagon-2 .hexagon-in{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+}
+.tmm-team .item-hexagon-2 .hexagon-bg{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    visibility: visible;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+}
+.tmm-team .item-hexagon-2 .hexagon-bg.type-1{
+    background: url(../images/page_3/11.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.tmm-team .item-hexagon-2 .hexagon-bg.type-2{
+    background: url(../images/page_3/12.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.tmm-team .item-hexagon-2 .hexagon-bg.type-3{
+    background: url(../images/page_3/13.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.tmm-team .item-hexagon-2 .hexagon-bg.type-4{
+    background: url(../images/page_3/14.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.tmm-team .item-hexagon-2 .hexagon-bg.type-5{
+    background: url(../images/page_3/15.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+/* end Hexagon */
+.tmm-team .item-hexagon-2 .face-container:hover{
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+    -webkit-transform-origin: center bottom;
+    -ms-transform-origin: center bottom;
+    transform-origin: center bottom;
+}
+.tmm-team .item-hexagon-2 .title{
+    font-family: "Open Sans", sans-serif;
+    color: #333333;
+}
+.tmm-team .item-hexagon-2 .title h3{
+    font-size: 30px;
+    font-weight: 300;
+    padding-bottom: 3px;
+}
+.tmm-team .item-hexagon-2 .title h4{
+    font-size: 14px;
+    font-weight: 300;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+/* --------------------------------------- */
+/*$3. Team Type 3 */
+/* --------------------------------------- */
+.tmm-team .hgroup .title-3{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.tmm-team .item-hexagon-3{
+    background-color: transparent;
+    text-align: center;
+    position: relative;
+    width: 278px;
+    display: inline-block;
+    margin: 0 3px;
+}
+.tmm-team .item-hexagon-3 .face-container{
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+/* Hexagon */
+.tmm-team .item-hexagon-3 .hexagon{
+    overflow: hidden;
+    visibility: hidden;
+    cursor: pointer;
+    width: 240px;
+    height: 277px;
+    margin: 0 auto;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: rotate(120deg);
+    -moz-transform: rotate(120deg);
+    -ms-transform: rotate(120deg);
+    -o-transform: rotate(120deg);
+    transform: rotate(120deg);
+}
+.tmm-team .item-hexagon-3 .hexagon-in{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+}
+.tmm-team .item-hexagon-3 .hexagon-bg{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    visibility: visible;
+    overflow: hidden;
+    background-size: 100%;
+    background-position: 50% 50%;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+    -webkit-transition: background-size .35s ease-in;
+    transition: background-size .35s ease-in;
+}
+.tmm-team .item-hexagon-3 .hexagon:hover .hexagon-bg{
+    background-size: 110%;
+}
+.tmm-team .item-hexagon-3 .hexagon-bg.type-1{
+    background-image: url(../images/page_3/21.jpg);
+}
+.tmm-team .item-hexagon-3 .hexagon-bg.type-2{
+    background-image: url(../images/page_3/22.jpg);
+}
+.tmm-team .item-hexagon-3 .hexagon-bg.type-3{
+    background-image: url(../images/page_3/23.jpg);
+}
+.tmm-team .item-hexagon-3 .hexagon-bg.type-4{
+    background-image: url(../images/page_3/24.jpg);
+}
+/* end Hexagon */
+.not-ie .tmm-team .item-hexagon-3 .block{
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    background-color: #000;
+    opacity: .3;
+    top: 116px;
+    left: 39px;
+    -webkit-transform: rotate(-30deg) translateY(40%);
+    transform: rotate(-30deg) translateY(40%);
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease;
+}
+.tmm-team .item-hexagon-3:hover .block{
+    background-color: #ffd800;
+    -webkit-transform: rotate(-30deg) translateY(0);
+    transform: rotate(-30deg) translateY(0);
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease;
+}
+.tmm-team .item-hexagon-3 .social-icons{
+    background-color: transparent;
+    padding: 0;
+    position: absolute;
+    top: 200px;
+    left: 77px;
+}
+.tmm-team .item-hexagon-3 .social-icons li{
+    padding: 0;
+    display: inline-block;
+    list-style: none;
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease;
+}
+.tmm-team .item-hexagon-3 .social-icons li:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease;
+}
+.tmm-team .item-hexagon-3 .social-icons li a{
+    color: #fff;
+    font-size: 27px;
+    cursor: pointer;
+}
+.tmm-team .item-hexagon-3 .social-icons li:nth-child(1):hover a{
+    color: #0c7bae;
+}
+.tmm-team .item-hexagon-3 .social-icons li:nth-child(2):hover a{
+    color: #0cd3e5;
+}
+.tmm-team .item-hexagon-3 .social-icons li:nth-child(3):hover a{
+    color: #f94e9f;
+}
+.tmm-team .item-hexagon-3 .item-content{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    position: relative;
+    opacity: 0;
+    -webkit-transform: translateY(80px);
+    transform: translateY(80px);
+    -webkit-transition: -webkit-transform .35s .2s, opacity .35s .2s;
+    transition: transform .35s .2s, opacity .35s .2s;
+}
+.tmm-team .item-hexagon-3:hover .item-content{
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: -webkit-transform .35s .2s, opacity .35s .2s;
+    transition: transform .35s .2s, opacity .35s .2s;
+}
+.tmm-team .item-hexagon-3 .item-content h4{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.tmm-team .item-hexagon-3 .item-content p{
+    font-size: 12px;
+    color: #fff;
+    text-align: left;
+    border: 1px solid #fff;
+    padding: 10px 15px;
+}
+/* --------------------------------------- */
+/*$4. Team Type 4 */
+/* --------------------------------------- */
+.hgroup .title-4{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    color: #fff;
+    border: 2px solid #fff;
+    display: inline-block;
+    padding: 12px 16px;
+}
+.tmm-team .item-hexagon-4{
+    background-color: transparent;
+    text-align: center;
+    overflow: hidden;
+    width: 206px;
+    display: inline-block;
+    position: relative;
+    margin: 0 10px;
+}
+.tmm-team .item-hexagon-4 .face-container{
+    padding: 0;
+    position: relative;
+}
+/* Hexagon */
+.tmm-team .item-hexagon-4 .hexagon{
+    overflow: hidden;
+    visibility: hidden;
+    cursor: pointer;
+    width: 206px;
+    height: 274px;
+    margin: 0 auto;
+    -webkit-transform: rotate(120deg);
+    -moz-transform: rotate(120deg);
+    -ms-transform: rotate(120deg);
+    -o-transform: rotate(120deg);
+    transform: rotate(120deg);
+}
+.tmm-team .item-hexagon-4 .hexagon-in{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+}
+.tmm-team .item-hexagon-4 .hexagon-bg{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    visibility: visible;
+    overflow: hidden;
+    background-size: auto;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+    -webkit-transition: background-size .2s ease-in;
+    transition: background-size .2s ease-in;
+}
+.tmm-team .item-hexagon-4 .hexagon-bg.type-1{
+    background: url(../images/page_3/31.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.tmm-team .item-hexagon-4 .hexagon-bg.type-2{
+    background: url(../images/page_3/32.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.tmm-team .item-hexagon-4 .hexagon-bg.type-3{
+    background: url(../images/page_3/33.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.tmm-team .item-hexagon-4 .hexagon-bg.type-4{
+    background: url(../images/page_3/34.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.tmm-team .item-hexagon-4 .hexagon-bg.type-5{
+    background: url(../images/page_3/35.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+/* end Hexagon */
+.not-ie .tmm-team .item-hexagon-4 .face-container:before,.not-ie .tmm-team .item-hexagon-4 .face-container:after{
+    -webkit-transition: -webkit-transform .35s ease, opacity .35s ease;
+    transition: transform .35s ease, opacity .35s ease;
+}
+.not-ie .tmm-team .item-hexagon-4 .face-container:before{
+    position: absolute;
+    width: 150px;
+    height: 10px;
+    background-color: #18def0;
+    content: "";
+    bottom: 52px;
+    left: -48px;
+    z-index: 0;
+    -webkit-transform: skewY(30deg);
+    transform: skewY(30deg);
+}
+.not-ie .tmm-team .item-hexagon-4 .face-container:after{
+    position: absolute;
+    width: 150px;
+    height: 10px;
+    background-color: #18def0;
+    content: "";
+    bottom: 52px;
+    right: -46px;
+    z-index: 0;
+    -webkit-transform: skewY(-30deg);
+    transform: skewY(-30deg);
+}
+.tmm-team .item-hexagon-4 .face-container:hover:after,.tmm-team .item-hexagon-4 .face-container:hover:before{
+    opacity: 0;
+    -webkit-transition: -webkit-transform .35s ease, opacity .35s ease;
+    transition: transform .35s ease, opacity .35s ease;
+}
+.tmm-team .item-hexagon-4 .face-container:hover:before{
+    -webkit-transform: skewY(30deg) translateY(50px);
+    transform: skewY(30deg) translateY(50px);
+}
+.tmm-team .item-hexagon-4 .face-container:hover:after{
+    -webkit-transform: skewY(-30deg) translateY(50px);
+    transform: skewY(-30deg) translateY(50px);
+}
+.tmm-team .item-hexagon-4 .info{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.6);
+    opacity: 0;
+    height: 100%;
+    z-index: 2;
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease;
+}
+.ie8 .tmm-team .item-hexagon-4 .info{
+    display: none;
+}
+.tmm-team .item-hexagon-4 .info h3{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 60px;
+    text-transform: uppercase;
+    -webkit-transform: translateX(-80%);
+    transform: translateX(-80%);
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease;
+}
+.tmm-team .item-hexagon-4 .info p{
+    border-top: 1px solid #d09673;
+    padding: 10px;
+    color: #fff;
+    font-size: 14px;
+    -webkit-transform: translateX(80%);
+    transform: translateX(80%);
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease;
+}
+.tmm-team .item-hexagon-4 .face-container:hover .info{
+    opacity: 1;
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease;
+}
+.tmm-team .item-hexagon-4 .face-container:hover .info h3{
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease;
+}
+.tmm-team .item-hexagon-4 .face-container:hover .info p{
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease;
+}
+.tmm-team .item-hexagon-4 .face-container .title-container{
+    position: absolute;
+    bottom: 57px;
+    left: 44%;
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease;
+}
+.tmm-team .item-hexagon-4 .face-container .title-container .title{
+    position: relative;
+    left: -37%;
+    padding: 6px 5px;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+}
+.tmm-team .item-hexagon-4 .face-container .title-container .title:after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #7f7f7f;
+    opacity: .5;
+    z-index: -1;
+    content: "";
+}
+.tmm-team .item-hexagon-4 .face-container:hover .title-container{
+    opacity: 0;
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%);
+    -webkit-transition: transform .35s ease, opacity .35s ease .1s;
+    transition: transform .35s ease, opacity .35s ease .1s;
+}
+.tmm-team .item-hexagon-4 .social-icons{
+    padding-top: 8px;
+}
+.tmm-team .item-hexagon-4 .social-icons li{
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    margin: 0px -2px;
+    padding: 0;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #fff;
+    padding: 7px 0px;
+    width: 33.333333%;
+}
+.tmm-team .item-hexagon-4 .social-icons li:after{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    backface-visibility: hidden;
+    z-index: -1;
+    content: "";
+    background-color: #fff;
+    -webkit-transition: height .25s linear 0s;
+    transition: height .25s linear 0s;
+}
+.tmm-team .item-hexagon-4 .social-icons li:hover:after{
+    height: 100%;
+    -webkit-transition: height .25s linear 0s;
+    transition: height .25s linear 0s;
+}
+.tmm-team .item-hexagon-4 .social-icons li:nth-child(3){
+    border-right: 1px solid #fff;
+}
+.tmm-team .item-hexagon-4 .social-icons li a{
+    color: #fff;
+    font-size: 18px;
+}
+.tmm-team .item-hexagon-4 .social-icons li:nth-child(1):hover a{
+    color: #1c99c2;
+}
+.tmm-team .item-hexagon-4 .social-icons li:nth-child(2):hover a{
+    color: #18def0;
+}
+.tmm-team .item-hexagon-4 .social-icons li:nth-child(3):hover a{
+    color: #e44e43;
+}
+.tmm-team .item-hexagon-4 .item-content .apply{
+    background-color: #28ac9b;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    padding: 7px;
+    width: 100%;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 8px;
+    -webkit-transition: background-color .25s ease-in-out 0s;
+    transition: background-color .25s ease-in-out 0s;
+}
+.tmm-team .item-hexagon-4 .item-content .apply:hover{
+    background-color: #18def0;
+    -webkit-transition: background-color .25s ease-in-out 0s;
+    transition: background-color .25s ease-in-out 0s;
+}
+/* --------------------------------------- */
+/*$5. Team Type 5 */
+/* --------------------------------------- */
+.hgroup .title-5{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #d7d7d7;
+}
+.hgroup h4.sub-title-5{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #d7d7d7;
+    text-align: center;
+    display: inline-block;
+    padding: 20px 500px;
+}
+.tmm-team .item-hexagon-5{
+    background-color: transparent;
+    text-align: center;
+    padding: 0 27px;
+    position: relative;
+    display: inline-block;
+}
+.tmm-team .item-hexagon-5 .face-container{
+    padding: 0;
+    position: relative;
+}
+.tmm-team .item-hexagon-5:hover .face-container{
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+    -webkit-transform-origin: center bottom;
+    -ms-transform-origin: center bottom;
+    transform-origin: center bottom;
+}
+/* Hexagon */
+.tmm-team .item-hexagon-5 .hexagon{
+    overflow: hidden;
+    visibility: hidden;
+    cursor: pointer;
+    width: 216px;
+    height: 250px;
+    margin: 0 auto;
+    -webkit-transform: rotate(120deg);
+    -moz-transform: rotate(120deg);
+    -ms-transform: rotate(120deg);
+    -o-transform: rotate(120deg);
+    transform: rotate(120deg);
+}
+.tmm-team .item-hexagon-5 .hexagon-in{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+}
+.tmm-team .item-hexagon-5 .hexagon-bg{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    visibility: visible;
+    overflow: hidden;
+    background-size: auto;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+    -webkit-transition: background-size .2s ease-in;
+    transition: background-size .2s ease-in;
+}
+.tmm-team .item-hexagon-5 .hexagon-bg.type-1{
+    background: url(../images/page_3/41.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.tmm-team .item-hexagon-5 .hexagon-bg.type-2{
+    background: url(../images/page_3/42.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.tmm-team .item-hexagon-5 .hexagon-bg.type-3{
+    background: url(../images/page_3/43.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.tmm-team .item-hexagon-5 .hexagon-bg.type-4{
+    background: url(../images/page_3/44.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+/* end Hexagon */
+.tmm-team .item-hexagon-5 .info{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.3);
+    opacity: 0;
+    height: 100%;
+    z-index: 2;
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease;
+}
+.ie8 .tmm-team .item-hexagon-5 .info{
+    display: none;
+}
+.tmm-team .item-hexagon-5 .info h3{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 60px;
+    text-transform: uppercase;
+    -webkit-transform: translateX(-80%);
+    transform: translateX(-80%);
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease;
+}
+.tmm-team .item-hexagon-5 .info p{
+    border-top: 1px solid #d09673;
+    padding: 10px;
+    color: #fff;
+    font-size: 14px;
+    -webkit-transform: translateX(80%);
+    transform: translateX(80%);
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease;
+}
+.tmm-team .item-hexagon-5 .face-container:hover .info{
+    opacity: 1;
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease;
+}
+.tmm-team .item-hexagon-5 .face-container:hover .info h3{
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease;
+}
+.tmm-team .item-hexagon-5 .face-container:hover .info p{
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease;
+}
+.tmm-team .item-hexagon-5 .social-icons{
+    background-color: transparent;
+    padding: 0;
+    position: absolute;
+    top: 189px;
+    left: 44px;
+}
+.tmm-team .item-hexagon-5 .social-icons li{
+    padding: 0;
+    display: inline-block;
+    list-style: none;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all .35s ease 0s;
+    transition: all .35s ease 0s;
+}
+.tmm-team .item-hexagon-5 .social-icons li:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition: all .35s ease 0s;
+    transition: all .35s ease 0s;
+}
+.tmm-team .item-hexagon-5 .social-icons li a{
+    color: #fff;
+    font-size: 27px;
+    cursor: pointer;
+}
+.tmm-team .item-hexagon-5 .social-icons li:nth-child(1):hover a{
+    color: #1c99c2;
+}
+.tmm-team .item-hexagon-5 .social-icons li:nth-child(2):hover a{
+    color: #18def0;
+}
+.tmm-team .item-hexagon-5 .social-icons li:nth-child(3):hover a{
+    color: #e44e43;
+}
+.tmm-team .item-hexagon-5 .item-content{
+    padding: 0 20px;
+}
+.tmm-team .item-hexagon-5 .item-content .item-title{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    font-size: 30px;
+    padding: 15px 0px;
+    text-transform: uppercase;
+}
+.tmm-team .item-hexagon-5 .item-content .item-sub-title{
+    width: 100%;
+    background-color: #fcf0ac;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #ad9c3a;
+    padding: 9px 0px;
+    opacity: 0;
+    -webkit-transform: translateY(60px);
+    transform: translateY(60px);
+    -webkit-transition: -webkit-transform .35s ease, opacity .35s ease;
+    transition: transform .35s ease, opacity .35s ease;
+}
+.tmm-team .item-hexagon-5:hover .item-sub-title{
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: -webkit-transform .35s ease, opacity .35s ease;
+    transition: transform .35s ease, opacity .35s ease;
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="S&amp;S_Parkings">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="mysql-connector-java-5.1.43-bin.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/D:/Work/Work Folder/Project/JAR Files/Mysql connector/mysql-connector-java-5.1.43/mysql-connector-java-5.1.43/mysql-connector-java-5.1.43-bin.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.servlet-3.0.0.v201112011016.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/D:/Work/Work Folder/Project/JAR Files/javax.servlet-3.0.0.v201112011016.jar/javax.servlet-3.0.0.v201112011016.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="cos.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/D:/Work/Work Folder/Project/JAR Files/cos.jar/cos.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mail.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/D:/Work/Work Folder/Project/JAR Files/mailactivation/mail.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activation.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/D:/Work/Work Folder/Project/JAR Files/mailactivation/activation.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="eclipse.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/D:/Work/Work Folder/Project/JAR Files/eclipse.jar~/eclipse.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="SS_Parkings"/>
+        <property name="java-output-path" value="/S&amp;S_Parkings/build/classes"/>
+    </wb-module>
+</project-modules>

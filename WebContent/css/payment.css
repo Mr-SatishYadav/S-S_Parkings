@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header{margin-top:10px;}
+.phone-no{ float:right; font-family:myriad pro;}
+.book-online{ font-size:12px;font-family:myriad pro; padding-left:36px; }
+.phone-no h3{    margin-top: 2px;
+    color: #9e0b0f;
+    background: url(../image/telephone.png)no-repeat;
+    padding-left: 36px;}
+	.payment-info{background:#036c9b;padding: 13px 0;}
+	.payment-info h5{margin:0;padding-left:15px;color:#fff;font-size: 16px;}
+	.payment-methodcard{padding: 5px 10px;}
+	.star{ color:red;}
+	.payment-method{ padding-left:15px;}
+	.payment-method{font: italic 700 14px/29px "myriad pro";margin: 0;padding: 0px 0;}} 
+	.payment-wrapper{ border:1px solid #e3e3e3;}
+	.visa select{ width:100%; font:italic 400 15px/20px "myriad pro";}
+	.card-1{ float:left; margin-right:4px;}
+	.payment-wrapper {
+    border: 1px solid #e3e3e3;
+    padding-bottom: 10px;
+}
+.payment-wrapper .text-control{ height:33px;}
+.card-number span{ font-size:13px;}
+
+.Month-cntrl select{ width:45%; margin-right:10px; float:left;}
+.otp{
+    background: url(../image/card.jpg)no-repeat right center;
+    background-position: 84% 0;
+    height: 27px;
+}
+.Acceptance{ text-decoration:underline; font-size:12px; margin-right:20px;}
+.icon-class{ padding-right:10px;}
+.norton{float:right;position: absolute;right: 12px;bottom: -7px;}
+.norton-payment{ position:relative; padding-bottom:0;} 
+.billig{ margin-top:20px;}
+.adress input{ margin-bottom:15px;}
